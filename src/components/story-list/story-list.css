@@ -1,0 +1,11 @@
+.story {
+    transition: 0.3s all;
+}
+
+.story_enter {
+    transform: translateY(-200px);
+}
+
+.story_enter-active {
+    transform: translateY(0);
+}

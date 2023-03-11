@@ -1,0 +1,28 @@
+.comment {
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 0.4rem;
+    margin-top: 0.4rem;
+    display: block;
+}
+
+.comment__time {
+    color: dimgray;
+    font-size: 0.8rem;
+}
+
+.comment__text {
+    margin-top: 0.4rem;
+    font-size: 0.9rem;
+}
+
+.comment__text p {
+    margin: 0;
+}
+
+.comment__kids {
+    margin-top: 0.4rem;
+    cursor: pointer;
+    color: #FF6600;
+    font-size: 0.9rem;
+}

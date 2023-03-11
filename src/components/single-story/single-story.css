@@ -1,0 +1,54 @@
+.single-story {
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 0.4rem;
+    margin-top: 0.4rem;
+    position: relative;
+    z-index: 2;
+    display: block;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.single-story__title {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.single-story__time {
+    color: dimgray;
+    font-size: 0.8rem;
+}
+
+.single-story__url {
+    font-size: 0.8rem;
+}
+
+.single-story__url__text {
+    color: dodgerblue;
+}
+
+.single-story_loading {
+    height: 3rem;
+}
+
+.single-story__loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.single-story__loader__img {
+    animation: loader-spin 0.7s infinite linear;
+    height: 1.4rem;
+}
+
+.single-story__comment-count {
+    margin-top: 1rem;
+}

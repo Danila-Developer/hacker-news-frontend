@@ -1,0 +1,13 @@
+.header {
+    background-color: #FF6600;
+    padding: 0.5rem 0;
+    position: relative;
+    z-index: 4;
+    margin-bottom: 1rem;
+}
+
+.header__title {
+    font-size: 1.2rem;
+    margin: 0;
+    text-align: center;
+}

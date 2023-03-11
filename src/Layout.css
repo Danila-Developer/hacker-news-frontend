@@ -1,0 +1,44 @@
+html {
+    font-size: 20px;
+    background-color: #EDF0F3;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.button {
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    padding: 0.4rem 1rem;
+    position: relative;
+    transition: 0.3s all;
+}
+
+.button:hover:before {
+    opacity: 1;
+}
+
+.button::before {
+    content: attr(data-hover);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FF6600;
+    padding: inherit;
+    display: block;
+    transition: 0.3s all;
+    opacity: 0;
+}
+
+@keyframes loader-spin {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

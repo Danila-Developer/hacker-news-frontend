@@ -1,0 +1,48 @@
+.story {
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 0.4rem;
+    margin-top: 0.4rem;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    display: block;
+}
+
+.story:hover:after {
+    opacity: 1;
+}
+
+.story::after {
+    transition: 0.3s all;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 102, 0, 0.3);
+    z-index: 3;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.story__title {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.story__time {
+    color: dimgray;
+    font-size: 0.8rem;
+}
+
+.story__score {
+    font-size: 0.8rem;
+}

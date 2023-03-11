@@ -1,0 +1,11 @@
+.nav-button-wrapper {
+    display: flex;
+    justify-content: left;
+}
+
+.nav-button {
+    display: inline-block;
+    background-color: black;
+    padding: 0.4rem 1rem;
+    color: white;
+}
